@@ -1,4 +1,4 @@
-describe("Launch Screen", () => {
+describe("Launch Screen Test", () => {
   it("should not login with invalid credentials",async () => {
       //Access the Allow permission button
       await $('//*[@text="Allow"]').click();
